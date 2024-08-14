@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.rett-first-part
+{
+    
+    background-image: url('assets/Mask\ Group\ 2@2x.png');
+    background-position: center; /* Move the image up by 100px */
+    background-size: 100% auto; /* Scale the image to fit the width and adjust height proportionally */
+    background-repeat: no-repeat; /* Ensures the image covers the entire div */
+    width: 100%; /* Set the width of the div */
+    height: 696px; /* Set the height of the div */
+    position: relative;
+}
+.rett-second-part
+{
+    width: 100%;
+  height: 500px;
+}
+.image3
+{
+    margin-left: 20px;
+}
+.image3 img{
+    height: 340px;
+}
+.rett-second h6
+{
+    width: 545px !important;
+}
+.rett-third-part
+{
+    background-image: url('assets/Rectangle\ 45.svg'); /* Pink to Orange gradient */
+    width: 100%;
+    height: 800px;
+}
+.rett-third-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-img img{
+    margin-bottom: 50px;
+}
+.left-side-content
+{
+    color: var(--white-color);
+}
+.left-side-content h3{
+    font-size: 39px;
+}
+.left-side-content h5{
+    width: 593px;
+}
+
+.right-img img{
+    margin-top: 90px;
+    height: 500px;
+}
+.rett-third-box
+{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.text-part h6{
+    text-align: center;
+    padding-top: 20px;
+    color: var(--pink-color);
+}
+.text-part button{
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+.storie-third-part
+{
+     background-image: url('assets/Rectangle\ 45@2x.png');
+    background-position: center -100px; /* Move the image up by 100px */
+    background-size: 100% auto; /* Scale the image to fit the width and adjust height proportionally */
+    background-repeat: no-repeat; /* Ensures the image covers the entire div */
+    width: 100%; /* Set the width of the div */
+    height: 696px; /* Set the height of the div */
+    position: relative;
+}

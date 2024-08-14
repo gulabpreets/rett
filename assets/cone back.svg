@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="803.515" height="766.964" viewBox="0 0 803.515 766.964">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.269" y1="0.032" x2="0.787" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9b4a82"/>
+      <stop offset="1" stop-color="#6f2257" stop-opacity="0.141"/>
+    </linearGradient>
+  </defs>
+  <path id="cone_back" data-name="cone back" d="M414.739,1030.5a72.969,72.969,0,0,1,67.017,43.787,148.925,148.925,0,0,1,6.647,18.882,3.322,3.322,0,0,0,.219.655l13.769,46.236H328.036l14.755-49.561a18.75,18.75,0,0,0,.657-3.069s.146-3.177,4.054-12.415a72.963,72.963,0,0,1,67.273-44.524Zm-97.513,146.086H513.275l32.614,109.567H284.576Zm-43.534,146.088H556.809l32.65,109.564H241.078Zm-43.461,146.085H600.306l32.687,109.567H197.581Zm-43.5,146.088H643.876l32.614,109.564H154.12Zm-173.7,146.086H816.515v36.521H13Z" transform="translate(-13 -1030.494)" fill="url(#linear-gradient)" style="mix-blend-mode: luminosity;isolation: isolate"/>
+</svg>

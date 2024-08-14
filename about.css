@@ -1,0 +1,86 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.about-first-part
+{
+     background-image: url('assets/about.png');
+    background-position: center -100px; /* Move the image up by 100px */
+    background-size: 100% auto; /* Scale the image to fit the width and adjust height proportionally */
+    background-repeat: no-repeat; /* Ensures the image covers the entire div */
+    width: 100%; /* Set the width of the div */
+    height: 696px; /* Set the height of the div */
+    position: relative;
+}
+.purpl-text
+{
+   color: var(--pink-color);
+  font-weight:500;
+  font-size: 36px;
+  display: block;
+  width: 500px;
+}
+.pin-text
+{
+    color: var(--purple-color);
+    font-size: 40px;
+    font-weight: 600;
+}
+.about-second-part
+{
+    height:600px;
+}
+.about-second-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-second-images
+{
+    height: 400px;
+}
+.image1 img{
+    height: 425px;
+}
+@media(max-width:62em)
+{
+    .about-first-part
+    {
+        background-position: center;
+    height: 350px;
+    }
+    .first-content
+    {
+        bottom: 0;
+    }
+    .headings
+    {
+        height: 100px;
+    }
+    .pin-text
+    {
+        font-size: 35px;
+    }
+    .purpl-text
+    {
+        font-size: 30px;
+    }
+    .second-headings h5
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+    .second-headings h6
+    {
+        margin-left: 30px;
+    }
+}

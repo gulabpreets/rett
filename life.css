@@ -1,0 +1,160 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.life-first-part
+{
+    background-image: url('assets/life.png');
+    background-position: center; /* Move the image up by 100px */
+    background-size: 100% auto; /* Scale the image to fit the width and adjust height proportionally */
+    background-repeat: no-repeat; /* Ensures the image covers the entire div */
+    width: 100%; /* Set the width of the div */
+    height: 696px; /* Set the height of the div */
+    position: relative;
+}
+.life-second-part
+{
+    background-color: var(--yellow-color);
+    height: 350px;
+}
+.life-second-content
+{
+    padding-top: 100px;
+
+}
+.life-second-headings h5{
+    width: 79%;
+}
+.life-third-part
+{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.life-third-content
+{
+    position: relative;
+}
+.color-line {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding-top: 100px;
+}
+
+.clr-line {
+    max-width: 100%;
+    max-height: 3000px;
+    object-fit: cover;
+}
+.life-img
+{
+    width: 90%;
+}
+.life-third
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.life-left
+{
+    width: 500px;
+}
+.life-third p{
+    width: 480px;
+}
+.life-third h6{
+    color: var(--purple-color);
+}
+.life-third-headings
+{
+    padding-top: 80px;
+    
+}
+.life-third-headings h6{
+    font-size: 20px;
+}
+.logos{
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    
+    z-index: 12;
+    transform: translateX(-50%);
+    padding-top: 100px;
+    
+}
+.logos img{
+    width: 60px;
+    padding-bottom: 280px;
+}
+@media(max-width:62em)
+{
+    .life-first-part
+    {
+        background-position: center;
+    height: 350px;
+    }
+    .life-second-part
+    {
+        height: auto;
+    }
+    .headings
+    {
+        height: 60px;
+    }
+    .first-content
+    {
+        bottom: 100px;
+    }
+    .life-second-content
+    {
+        padding-top: 30px;
+    }
+    .life-second-headings h5
+    {
+        width: 100%;
+    }
+    span.pink-text
+    {
+        font-size: 30px;
+        text-align: center;
+    }
+    .life-third-headings
+    {
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    span.purple-text
+    {
+        font-size: 30px;
+    }
+    h6
+    {
+        margin-left: 0;
+    }
+
+}

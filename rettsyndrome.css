@@ -1,0 +1,183 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.syndrome-first-part
+{
+    background-image: url('assets/rettsyndrome.png');
+    background-position: center; /* Move the image up by 100px */
+    background-size: 100% auto; /* Scale the image to fit the width and adjust height proportionally */
+    background-repeat: no-repeat; /* Ensures the image covers the entire div */
+    width: 100%; /* Set the width of the div */
+    height: 696px; /* Set the height of the div */
+    position: relative;
+}
+
+.syndrome-logo {
+    position: relative;
+    width: 170px; /* Adjust as needed */
+    height: 170px;
+     /* Adjust as needed */
+}
+
+.img-2 {
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    width: 50%;
+    height: 50%;
+    z-index: 1; /* Ensure image2 is below image1 */
+}
+
+.img-1 {
+    position: absolute;
+    bottom: 100px; /* Adjust as needed */
+    left: 30%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 30%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 2; /* Ensure image1 is above image2 */
+} 
+.syndrome-content
+{
+    width: 400px;
+    margin-bottom: 60px;
+    
+}
+.second-syndrome
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:40px
+}
+.second-headings h3{
+    margin-top: 30px;
+    width: 40%;
+}
+.syndrome-txt h6{
+    width: 232px;
+    
+}
+.syndrome-txt1 h6{
+    width: 500px;
+}
+.syndrome-third-part
+{
+    background: url('assets/Component\ 1\ –\ 1.svg');
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+.syndrom-third-content
+{
+    padding-top: 100px;
+}
+.syndrome-headings h4{
+    width: 471px;
+    font-weight: 500;
+}
+.syndrome-headings h1{
+    font-size: 80px;
+}
+.syndrome-headings h5{
+    width: 690px;
+    font-size: 47px;
+}
+.para-text h6{
+    color: var(--pink-color);
+    font-weight: 500;
+    font-size: 30px;
+    display: inline;
+}
+.para-text p{
+    color: var(--purple-color);
+    font-weight: 500;
+    font-size: 22px;
+    display: inline;
+}
+.syndrome-fourth-part
+{
+    height: 900px;
+}
+.syndrome-fourth-headings h3
+{
+    padding-top: 70px;
+    width: 700px;
+}
+.syndrome-fourth-headings h6{
+    width: 700px;
+    margin-top: 20px;
+}
+.pp-txt
+{
+    color: var(--purple-color);
+    padding-top: 50px;
+    font-weight: 600;
+}
+.syndrome-fourth-images
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.image-container {
+    position: relative;
+    border-radius: 20px;
+}
+.bg-syndrome-image
+{
+    width: 300px;
+    border-radius: 20px !important;
+    
+}
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7),rgba(42, 31, 63,0.8));
+    z-index: 1;
+    border-radius: 20px;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+.syndrome-fourth-content h6{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.image-container a:hover .bg-syndrome-image
+{
+    background: #000;;
+}
+.image-container:hover {
+    transform: scale(1.1);
+}
+.image-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

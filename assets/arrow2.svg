@@ -1,0 +1,7 @@
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Ellipse_5" data-name="Ellipse 5" fill="none" stroke="#350e43" stroke-width="2">
+    <circle cx="17" cy="17" r="17" stroke="none"/>
+    <circle cx="17" cy="17" r="16" fill="none"/>
+  </g>
+  <path id="_05d672bf2ec15f434a544f7a2214100f" data-name="05d672bf2ec15f434a544f7a2214100f" d="M12,0,6,6,0,0" transform="translate(14.5 23.5) rotate(-90)" fill="none" stroke="#350e43" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>
